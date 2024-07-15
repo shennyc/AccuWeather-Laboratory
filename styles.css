@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#weather, #forecast, #hourly {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.forecast-day, .forecast-hour {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.forecast-day img, .forecast-hour img {
+    width: 50px;
+    height: 50px;
+}
